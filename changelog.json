@@ -1,0 +1,69 @@
+{
+"date": "January 4, 2026 at 6:10 AM",
+"sections": [
+{
+"title": "CHANGELOG",
+"items": [
+{
+"type": "+",
+"text": "Reworked memory scrubbing method using syscall function and x64 Asm byte injection."
+},
+{
+"type": "+",
+"text": "Added valid Digital Signature & Code Signing Certificates."
+},
+{
+"type": "+",
+"text": "Changed DLL injection method."
+},
+{
+"type": "+",
+"text": "Patched all event log generation."
+},
+{
+"type": "+",
+"text": "Improved memory string cleaning speed."
+},
+{
+"type": "+",
+"text": "Implemented new method to bypass CSRSS process"
+}
+]
+},
+{
+"title": "BUG FIXES / CHANGES",
+"items": [
+{
+"type": "+",
+"text": "Fixed issue where destructing crashed the process."
+},
+{
+"type": "+",
+"text": "Fixed Buffer function."
+},
+{
+"type": "+",
+"text": "Persistence is now OPTIONAL."
+}
+]
+},
+{
+"title": "Remaining Issues",
+"items": [
+{
+"type": "-",
+"text": "Ocean ImGui application detection"
+},
+{
+"type": "-",
+"text": "Ocean StreamProof Application detection"
+},
+{
+"type": "-",
+"text": "Software authorization"
+}
+]
+}
+],
+"edited": true
+}
